@@ -1,3 +1,5 @@
+
+
 const express = require("express");
 const cors = require("cors");
 const dotenv = require("dotenv");
@@ -21,5 +23,5 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log(`Servidor ejecutado en puerto ${PORT}`);
 });
